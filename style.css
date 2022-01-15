@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 6px;
+  grid-template-rows: 14vh 20vh 29vh 28vh;
+  grid-template-areas: 
+  "h h h h h h h h h h h h"
+  "h h h h h h h h h h h h"
+  "m m m m m m m m m c c c"
+  "f f f f f f f f f c c c"
+}
+
+.header {  
+  background-color: skyblue;
+  grid-area: h;
+}
+.menu {  
+  background-color: skyblue;
+  grid-area: m;
+}
+.content {  
+  background-color: skyblue;
+  grid-area: c;
+}
+.footer {  
+  background-color: skyblue;
+  grid-area: f;
+}
+
+/* --Farhan Sadik-- */
