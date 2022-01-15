@@ -11,19 +11,19 @@
   "f f f f f f f f f c c c"
 }
 
-.header {  
+.One {  
   background-color: skyblue;
   grid-area: h;
 }
-.menu {  
+.Two {  
   background-color: skyblue;
   grid-area: m;
 }
-.content {  
+.Three {  
   background-color: skyblue;
   grid-area: c;
 }
-.footer {  
+.Four {  
   background-color: skyblue;
   grid-area: f;
 }
